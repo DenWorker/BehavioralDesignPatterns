@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c162491-9177-4519-9d68-2734b6cf9240" name="Changes" comment="Strategy pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/template/NewsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/template/WebsiteRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/template/WebsiteTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/template/WelcomePage.java" afterDir="false" />
+    <list default="true" id="6c162491-9177-4519-9d68-2734b6cf9240" name="Changes" comment="Template pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/visitor/developers/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/visitor/developers/JuniorDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/visitor/developers/SeniorDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/visitor/projects/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/visitor/projects/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/visitor/projects/ProjectClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/visitor/projects/ProjectElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/visitor/projects/ProjectRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/visitor/projects/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +55,7 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.WebsiteRunner">
+  <component name="RunManager" selected="Application.ProjectRunner">
     <configuration name="DeveloperDay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DenWorker.ru.state.developer.DeveloperDay" />
       <module name="BehavioralDesignPatterns" />
@@ -90,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SaveProjectRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DenWorker.ru.memento.SaveProjectRunner" />
+    <configuration name="ProjectRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DenWorker.ru.visitor.projects.ProjectRunner" />
       <module name="BehavioralDesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DenWorker.ru.memento.*" />
+          <option name="PATTERN" value="DenWorker.ru.visitor.projects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProjectRunner" />
         <item itemvalue="Application.WebsiteRunner" />
         <item itemvalue="Application.DeveloperRunner" />
         <item itemvalue="Application.DeveloperDay" />
         <item itemvalue="Application.JobSearch" />
-        <item itemvalue="Application.SaveProjectRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +140,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686048007645</updated>
       <workItem from="1686048008925" duration="4835000" />
-      <workItem from="1686053347119" duration="23959000" />
+      <workItem from="1686053347119" duration="26130000" />
     </task>
     <task id="LOCAL-00001" summary="Chain of Responsibility pattern">
       <created>1686051753717</created>
@@ -200,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686310029909</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Template pattern">
+      <created>1686311285467</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1686311285467</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +239,8 @@
     <MESSAGE value="Observer pattern" />
     <MESSAGE value="State pattern" />
     <MESSAGE value="Strategy pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Strategy pattern" />
+    <MESSAGE value="Template pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Template pattern" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
