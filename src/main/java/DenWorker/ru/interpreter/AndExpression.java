@@ -1,8 +1,8 @@
 package DenWorker.ru.interpreter;
 
 public class AndExpression implements Expression {
-    private Expression expression1;
-    private Expression expression2;
+    private final Expression expression1;
+    private final Expression expression2;
 
     public AndExpression(Expression expression1, Expression expression2) {
         this.expression1 = expression1;

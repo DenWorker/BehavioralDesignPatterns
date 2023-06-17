@@ -1,7 +1,7 @@
 package DenWorker.ru.interpreter;
 
 public class TerminalExpression implements Expression {
-    private String data;
+    private final String data;
 
     public TerminalExpression(String data) {
         this.data = data;

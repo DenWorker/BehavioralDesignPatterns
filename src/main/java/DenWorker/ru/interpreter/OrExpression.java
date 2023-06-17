@@ -1,8 +1,8 @@
 package DenWorker.ru.interpreter;
 
 public class OrExpression implements Expression {
-    Expression expression1;
-    Expression expression2;
+    private final Expression expression1;
+    private final Expression expression2;
 
     public OrExpression(Expression expression1, Expression expression2) {
         this.expression1 = expression1;
