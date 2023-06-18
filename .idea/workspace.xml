@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c162491-9177-4519-9d68-2734b6cf9240" name="Changes" comment="Visitor pattern">
+    <list default="true" id="6c162491-9177-4519-9d68-2734b6cf9240" name="Changes" comment="Small changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DenWorker/ru/interpreter/AndExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/interpreter/AndExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DenWorker/ru/interpreter/OrExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/interpreter/OrExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DenWorker/ru/interpreter/InterpreterRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/interpreter/InterpreterRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.WebsiteRunner">
+  <component name="RunManager" selected="Application.InterpreterRunner">
     <configuration name="DeveloperDay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DenWorker.ru.state.developer.DeveloperDay" />
       <module name="BehavioralDesignPatterns" />
@@ -76,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JobSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DenWorker.ru.observer.JobSearch" />
+    <configuration name="InterpreterRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DenWorker.ru.interpreter.InterpreterRunner" />
       <module name="BehavioralDesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DenWorker.ru.observer.*" />
+          <option name="PATTERN" value="DenWorker.ru.interpreter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SaveProjectRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DenWorker.ru.memento.SaveProjectRunner" />
+    <configuration name="JobSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DenWorker.ru.observer.JobSearch" />
       <module name="BehavioralDesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DenWorker.ru.memento.*" />
+          <option name="PATTERN" value="DenWorker.ru.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InterpreterRunner" />
         <item itemvalue="Application.WebsiteRunner" />
         <item itemvalue="Application.DeveloperRunner" />
         <item itemvalue="Application.DeveloperDay" />
         <item itemvalue="Application.JobSearch" />
-        <item itemvalue="Application.SaveProjectRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +136,7 @@
       <workItem from="1686053347119" duration="27090000" />
       <workItem from="1686390390958" duration="1891000" />
       <workItem from="1686740665939" duration="29541000" />
-      <workItem from="1687004250383" duration="1037000" />
+      <workItem from="1687004250383" duration="7720000" />
     </task>
     <task id="LOCAL-00001" summary="Chain of Responsibility pattern">
       <created>1686051753717</created>
@@ -216,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686313488440</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Small changes">
+      <created>1687005407851</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1687005407851</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +251,8 @@
     <MESSAGE value="Strategy pattern" />
     <MESSAGE value="Template pattern" />
     <MESSAGE value="Visitor pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Visitor pattern" />
+    <MESSAGE value="Small changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small changes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

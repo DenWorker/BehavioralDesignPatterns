@@ -7,6 +7,8 @@ public class InterpreterRunner {
 
         System.out.println("Does developer know Java Core: " + isJava.interpret("Java Core"));
         System.out.println("Does developer know Java EE: " + isJavaEEDeveloper.interpret("Java Spring"));
+
+        System.out.println((new AndExpression(new TerminalExpression("gg"), new TerminalExpression("Java Core")).interpret("Java Core")));
     }
 
     public static Expression getJavaExpression() {
